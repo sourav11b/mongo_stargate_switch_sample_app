@@ -6,9 +6,9 @@ const fs = require('fs');
 //set the target database. valid options are MONGO and STARGATE
 const db_target = "STARGATE";
 
-//set the desired operation. valid options are READ,READ,UPDATE,UPDATE and STARGATE
+//set the desired operation. valid options are READ,INSERT,UPDATE, and DELETE
 
-const db_operation = "READ";
+const db_operation = "DELETE";
 
 
 //load insertion data from file

@@ -1,6 +1,6 @@
 
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://34.227.105.4:27017/";
+var url = "mongodb://localhost:27017/";
 async function insert(document,docid) {
 
     document._id = docid;
